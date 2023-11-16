@@ -5,7 +5,7 @@ project_name: docker-orcaslicer
 external_type: github_stable
 release_type: stable
 release_tag: latest
-ls_branch: main
+ls_branch: master
 repo_vars:
   - EXT_USER = 'SoftFever'
   - EXT_REPO = 'OrcaSlicer'
