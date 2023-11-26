@@ -1,0 +1,28 @@
+---
+
+# jenkins variables
+project_name: docker-orcaslicer
+external_type: github_stable
+release_type: stable
+release_tag: latest
+ls_branch: master
+repo_vars:
+  - EXT_USER = 'SoftFever'
+  - EXT_REPO = 'OrcaSlicer'
+  - BUILD_VERSION_ARG = 'ORCASLICER_VERSION'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-orcaslicer'
+  - CONTAINER_NAME = 'orcaslicer'
+  - DOCKERHUB_IMAGE = 'linuxserver/orcaslicer'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/orcaslicer'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/orcaslicer'
+  - DIST_IMAGE = 'ubuntu'
+  - MULTIARCH = 'false'
+  - CI = 'true'
+  - CI_WEB = 'true'
+  - CI_PORT = '3000'
+  - CI_SSL = 'false'
+  - CI_DELAY = '120'
+  - CI_DOCKERENV = 'TZ=US/Pacific'
+  - CI_AUTH = 'user:password'
+  - CI_WEBPATH = ''
