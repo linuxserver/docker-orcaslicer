@@ -1302,9 +1302,9 @@ libtext-iconv-perl                                                            1.
 libthai-data                                                                  0.1.29-1                                            deb        
 libthai0                                                                      0.1.29-1                                            deb        
 libtheora0                                                                    1.1.1+dfsg.1-16.1+b1                                deb        
-libtiff-dev                                                                   4.5.0-6                                             deb        
-libtiff6                                                                      4.5.0-6                                             deb        
-libtiffxx6                                                                    4.5.0-6                                             deb        
+libtiff-dev                                                                   4.5.0-6+deb12u1                                     deb        
+libtiff6                                                                      4.5.0-6+deb12u1                                     deb        
+libtiffxx6                                                                    4.5.0-6+deb12u1                                     deb        
 libtinfo6                                                                     6.4-4                                               deb        
 libtirpc-common                                                               1.3.3+ds-1                                          deb        
 libtirpc-dev                                                                  1.3.3+ds-1                                          deb        
