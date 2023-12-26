@@ -188,7 +188,7 @@ file-uri-to-path                                                              1.
 filelist                                                                      1.0.4                                               npm        
 finalhandler                                                                  1.2.0                                               npm        
 findutils                                                                     4.9.0-4                                             deb        
-firefox-esr                                                                   115.5.0esr-1~deb12u1                                deb        
+firefox-esr                                                                   115.6.0esr-1~deb12u1                                deb        
 fontconfig                                                                    2.14.1-4                                            deb        
 fontconfig-config                                                             2.14.1-4                                            deb        
 fonts-dejavu-core                                                             2.37-6                                              deb        
@@ -212,7 +212,7 @@ get-intrinsic                                                                 1.
 ghostscript                                                                   10.0.0~dfsg-11+deb12u3                              deb        
 gir1.2-freedesktop                                                            1.74.0-3                                            deb        
 gir1.2-glib-2.0                                                               1.74.0-3                                            deb        
-gir1.2-gst-plugins-bad-1.0                                                    1.22.0-4+deb12u3                                    deb        
+gir1.2-gst-plugins-bad-1.0                                                    1.22.0-4+deb12u4                                    deb        
 gir1.2-gst-plugins-base-1.0                                                   1.22.0-3+deb12u1                                    deb        
 gir1.2-gstreamer-1.0                                                          1.22.0-2                                            deb        
 gir1.2-gudev-1.0                                                              237-2                                               deb        
@@ -618,7 +618,7 @@ gstreamer1.0-alsa                                                             1.
 gstreamer1.0-gl                                                               1.22.0-3+deb12u1                                    deb        
 gstreamer1.0-gtk3                                                             1.22.0-5+deb12u1                                    deb        
 gstreamer1.0-libav                                                            1.22.0-2                                            deb        
-gstreamer1.0-plugins-bad                                                      1.22.0-4+deb12u3                                    deb        
+gstreamer1.0-plugins-bad                                                      1.22.0-4+deb12u4                                    deb        
 gstreamer1.0-plugins-base                                                     1.22.0-3+deb12u1                                    deb        
 gstreamer1.0-plugins-good                                                     1.22.0-5+deb12u1                                    deb        
 gstreamer1.0-plugins-ugly                                                     1.22.0-2+deb12u1                                    deb        
@@ -922,9 +922,9 @@ libgsm1                                                                       1.
 libgssapi-krb5-2                                                              1.20.1-2+deb12u1                                    deb        
 libgssdp-1.6-0                                                                1.6.2-2                                             deb        
 libgstreamer-gl1.0-0                                                          1.22.0-3+deb12u1                                    deb        
-libgstreamer-opencv1.0-0                                                      1.22.0-4+deb12u3                                    deb        
-libgstreamer-plugins-bad1.0-0                                                 1.22.0-4+deb12u3                                    deb        
-libgstreamer-plugins-bad1.0-dev                                               1.22.0-4+deb12u3                                    deb        
+libgstreamer-opencv1.0-0                                                      1.22.0-4+deb12u4                                    deb        
+libgstreamer-plugins-bad1.0-0                                                 1.22.0-4+deb12u4                                    deb        
+libgstreamer-plugins-bad1.0-dev                                               1.22.0-4+deb12u4                                    deb        
 libgstreamer-plugins-base1.0-0                                                1.22.0-3+deb12u1                                    deb        
 libgstreamer-plugins-base1.0-dev                                              1.22.0-3+deb12u1                                    deb        
 libgstreamer1.0-0                                                             1.22.0-2                                            deb        
