@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 2.0.0                                        npm        
 @types/cookie                                                                 0.4.1                                        npm        
 @types/cors                                                                   2.8.17                                       npm        
-@types/node                                                                   20.11.19                                     npm        
+@types/node                                                                   20.11.20                                     npm        
 PyGObject                                                                     3.42.2                                       python     
 PyJWT                                                                         2.6.0                                        python     
 abbrev                                                                        2.0.0                                        npm        
@@ -190,7 +190,7 @@ file-uri-to-path                                                              1.
 filelist                                                                      1.0.4                                        npm        
 finalhandler                                                                  1.2.0                                        npm        
 findutils                                                                     4.9.0-4                                      deb        
-firefox-esr                                                                   115.7.0esr-1~deb12u1                         deb        
+firefox-esr                                                                   115.8.0esr-1~deb12u1                         deb        
 fontconfig                                                                    2.14.1-4                                     deb        
 fontconfig-config                                                             2.14.1-4                                     deb        
 fonts-dejavu-core                                                             2.37-6                                       deb        
@@ -628,7 +628,7 @@ gtk-update-icon-cache                                                         3.
 gzip                                                                          1.12-1                                       deb        
 has-flag                                                                      4.0.0                                        npm        
 has-property-descriptors                                                      1.0.2                                        npm        
-has-proto                                                                     1.0.1                                        npm        
+has-proto                                                                     1.0.3                                        npm        
 has-symbols                                                                   1.0.3                                        npm        
 has-unicode                                                                   2.0.1                                        npm        
 hasown                                                                        2.0.0                                        npm        
@@ -1621,7 +1621,7 @@ sigstore                                                                      2.
 six                                                                           1.16.0                                       python     
 smart-buffer                                                                  4.2.0                                        npm        
 socket.io                                                                     4.7.4                                        npm        
-socket.io-adapter                                                             2.5.2                                        npm        
+socket.io-adapter                                                             2.5.4                                        npm        
 socket.io-parser                                                              4.2.4                                        npm        
 socks                                                                         2.7.1                                        npm        
 socks-proxy-agent                                                             8.0.2                                        npm        
