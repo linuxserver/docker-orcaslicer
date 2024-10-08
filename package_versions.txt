@@ -26,6 +26,7 @@ NAME                                                                          VE
 @sigstore/tuf                                                                 2.3.2                                               npm                          
 @sigstore/verify                                                              1.2.0                                               npm                          
 @socket.io/component-emitter                                                  3.1.2                                               npm                          
+@socket.io/component-emitter                                                  UNKNOWN                                             npm        (+1 duplicate)    
 @tufjs/canonical-json                                                         2.0.0                                               npm                          
 @tufjs/models                                                                 2.0.0                                               npm                          
 @types/cookie                                                                 0.4.1                                               npm                          
@@ -105,16 +106,16 @@ cron-daemon-common                                                            3.
 cross-spawn                                                                   7.0.3                                               npm                          
 cryptography                                                                  38.0.4                                              python     (+1 duplicate)    
 cssesc                                                                        3.0.0                                               npm                          
-cups                                                                          2.4.2-3+deb12u7                                     deb                          
-cups-client                                                                   2.4.2-3+deb12u7                                     deb                          
-cups-common                                                                   2.4.2-3+deb12u7                                     deb                          
-cups-core-drivers                                                             2.4.2-3+deb12u7                                     deb                          
-cups-daemon                                                                   2.4.2-3+deb12u7                                     deb                          
-cups-filters                                                                  1.28.17-3                                           deb                          
-cups-filters-core-drivers                                                     1.28.17-3                                           deb                          
-cups-ipp-utils                                                                2.4.2-3+deb12u7                                     deb                          
-cups-ppdc                                                                     2.4.2-3+deb12u7                                     deb                          
-cups-server-common                                                            2.4.2-3+deb12u7                                     deb                          
+cups                                                                          2.4.2-3+deb12u8                                     deb                          
+cups-client                                                                   2.4.2-3+deb12u8                                     deb                          
+cups-common                                                                   2.4.2-3+deb12u8                                     deb                          
+cups-core-drivers                                                             2.4.2-3+deb12u8                                     deb                          
+cups-daemon                                                                   2.4.2-3+deb12u8                                     deb                          
+cups-filters                                                                  1.28.17-3+deb12u1                                   deb                          
+cups-filters-core-drivers                                                     1.28.17-3+deb12u1                                   deb                          
+cups-ipp-utils                                                                2.4.2-3+deb12u8                                     deb                          
+cups-ppdc                                                                     2.4.2-3+deb12u8                                     deb                          
+cups-server-common                                                            2.4.2-3+deb12u8                                     deb                          
 curl                                                                          7.88.1-10+deb12u7                                   deb                          
 dario.cat/mergo                                                               v1.0.0                                              go-module  (+1 duplicate)    
 dario.cat/mergo                                                               v1.0.1                                              go-module                    
@@ -163,6 +164,7 @@ encodeurl                                                                     2.
 encoding                                                                      0.1.13                                              npm                          
 engine.io                                                                     6.6.1                                               npm                          
 engine.io-parser                                                              5.2.3                                               npm                          
+engine.io-parser                                                              UNKNOWN                                             npm        (+1 duplicate)    
 env-paths                                                                     2.2.1                                               npm                          
 err-code                                                                      2.0.3                                               npm                          
 es-define-property                                                            1.0.0                                               npm                          
@@ -181,7 +183,7 @@ file-uri-to-path                                                              1.
 filelist                                                                      1.0.4                                               npm                          
 finalhandler                                                                  1.3.1                                               npm                          
 findutils                                                                     4.9.0-4                                             deb                          
-firefox-esr                                                                   115.15.0esr-1~deb12u1                               deb                          
+firefox-esr                                                                   128.3.0esr-1~deb12u1                                deb                          
 fontconfig                                                                    2.14.1-4                                            deb                          
 fontconfig-config                                                             2.14.1-4                                            deb                          
 fonts-dejavu-core                                                             2.37-6                                              deb                          
@@ -749,8 +751,8 @@ libcom-err2                                                                   1.
 libcrypt-dev                                                                  1:4.4.33-2                                          deb                          
 libcrypt1                                                                     1:4.4.33-2                                          deb                          
 libcryptsetup12                                                               2:2.6.1-4~deb12u2                                   deb                          
-libcups2                                                                      2.4.2-3+deb12u7                                     deb                          
-libcupsfilters1                                                               1.28.17-3                                           deb                          
+libcups2                                                                      2.4.2-3+deb12u8                                     deb                          
+libcupsfilters1                                                               1.28.17-3+deb12u1                                   deb                          
 libcurl3-gnutls                                                               7.88.1-10+deb12u7                                   deb                          
 libcurl4                                                                      7.88.1-10+deb12u7                                   deb                          
 libdata-optlist-perl                                                          0.113-1                                             deb                          
@@ -761,7 +763,6 @@ libdatrie1                                                                    0.
 libdav1d6                                                                     1.0.0-2+deb12u1                                     deb                          
 libdb5.3                                                                      5.3.28+dfsg2-1                                      deb                          
 libdbus-1-3                                                                   1.14.10-1~deb12u1                                   deb                          
-libdbus-glib-1-2                                                              0.112-3                                             deb                          
 libdc1394-25                                                                  2.2.6-4                                             deb                          
 libdc1394-dev                                                                 2.2.6-4                                             deb                          
 libdca0                                                                       0.0.7-2                                             deb                          
@@ -821,7 +822,7 @@ libflac12                                                                     1.
 libflite1                                                                     2.2-5                                               deb                          
 libfluidsynth3                                                                2.3.1-2                                             deb                          
 libfontconfig1                                                                2.14.1-4                                            deb                          
-libfontembed1                                                                 1.28.17-3                                           deb                          
+libfontembed1                                                                 1.28.17-3+deb12u1                                   deb                          
 libfontenc1                                                                   1:1.1.4-1                                           deb                          
 libfreeaptx0                                                                  0.1.1-2                                             deb                          
 libfreetype6                                                                  2.12.1+dfsg-5+deb12u3                               deb                          
@@ -1416,7 +1417,7 @@ libzstd1                                                                      1.
 libzvbi-common                                                                0.2.41-1                                            deb                          
 libzvbi0                                                                      0.2.41-1                                            deb                          
 libzxing2                                                                     1.4.0-3+b1                                          deb                          
-linux-libc-dev                                                                6.1.106-3                                           deb                          
+linux-libc-dev                                                                6.1.112-1                                           deb                          
 locales                                                                       2.36-9+deb12u8                                      deb                          
 locales-all                                                                   2.36-9+deb12u8                                      deb                          
 login                                                                         1:4.13+dfsg1-1+b1                                   deb                          
