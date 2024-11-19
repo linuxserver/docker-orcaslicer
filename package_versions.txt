@@ -1142,7 +1142,7 @@ libpolkit-gobject-1-0                                                         12
 libpoppler-cpp0v5                                                             22.12.0-2+b1                                        deb                          
 libpoppler126                                                                 22.12.0-2+b1                                        deb                          
 libpostproc56                                                                 7:5.1.6-0+deb12u1                                   deb                          
-libpq5                                                                        15.8-0+deb12u1                                      deb                          
+libpq5                                                                        15.9-0+deb12u1                                      deb                          
 libproc2-0                                                                    2:4.0.2-3                                           deb                          
 libproj25                                                                     9.1.1-1+b1                                          deb                          
 libprotobuf32                                                                 3.21.12-3                                           deb                          
