@@ -610,14 +610,14 @@ groff-base                                                                    1.
 gsettings-desktop-schemas                                                     43.0-1                                  deb                         
 gstreamer1.0-alsa                                                             1.22.0-3+deb12u3                        deb                         
 gstreamer1.0-gl                                                               1.22.0-3+deb12u3                        deb                         
-gstreamer1.0-gtk3                                                             1.22.0-5+deb12u1                        deb                         
+gstreamer1.0-gtk3                                                             1.22.0-5+deb12u2                        deb                         
 gstreamer1.0-libav                                                            1.22.0-2                                deb                         
 gstreamer1.0-plugins-bad                                                      1.22.0-4+deb12u5                        deb                         
 gstreamer1.0-plugins-base                                                     1.22.0-3+deb12u3                        deb                         
-gstreamer1.0-plugins-good                                                     1.22.0-5+deb12u1                        deb                         
+gstreamer1.0-plugins-good                                                     1.22.0-5+deb12u2                        deb                         
 gstreamer1.0-plugins-ugly                                                     1.22.0-2+deb12u1                        deb                         
-gstreamer1.0-pulseaudio                                                       1.22.0-5+deb12u1                        deb                         
-gstreamer1.0-qt5                                                              1.22.0-5+deb12u1                        deb                         
+gstreamer1.0-pulseaudio                                                       1.22.0-5+deb12u2                        deb                         
+gstreamer1.0-qt5                                                              1.22.0-5+deb12u2                        deb                         
 gstreamer1.0-tools                                                            1.22.0-2+deb12u1                        deb                         
 gstreamer1.0-x                                                                1.22.0-3+deb12u3                        deb                         
 gtk-update-icon-cache                                                         3.24.38-2~deb12u3                       deb                         
@@ -953,7 +953,7 @@ libip4tc2                                                                     1.
 libip6tc2                                                                     1.8.9-2                                 deb                         
 libisl23                                                                      0.25-1.1                                deb                         
 libjack-jackd2-0                                                              1.9.21~dfsg-3                           deb                         
-libjavascriptcoregtk-4.0-18                                                   2.46.4-1~deb12u1                        deb                         
+libjavascriptcoregtk-4.0-18                                                   2.46.5-1~deb12u1                        deb                         
 libjbig-dev                                                                   2.1-6.1                                 deb                         
 libjbig0                                                                      2.1-6.1                                 deb                         
 libjbig2dec0                                                                  0.19-3                                  deb                         
@@ -1340,7 +1340,7 @@ libwayland-cursor0                                                            1.
 libwayland-dev                                                                1.21.0-1                                deb                         
 libwayland-egl1                                                               1.21.0-1                                deb                         
 libwayland-server0                                                            1.21.0-1                                deb                         
-libwebkit2gtk-4.0-37                                                          2.46.4-1~deb12u1                        deb                         
+libwebkit2gtk-4.0-37                                                          2.46.5-1~deb12u1                        deb                         
 libwebp-dev                                                                   1.2.4-0.2+deb12u1                       deb                         
 libwebp7                                                                      1.2.4-0.2+deb12u1                       deb                         
 libwebpdemux2                                                                 1.2.4-0.2+deb12u1                       deb                         
