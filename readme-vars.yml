@@ -6,6 +6,7 @@ project_url: "https://github.com/SoftFever/OrcaSlicer"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/orcaslicer-logo.png"
 project_blurb: "[Orca Slicer]({{ project_url }}) is an open source slicer for FDM printers. OrcaSlicer is fork of Bambu Studio, it was previously known as BambuStudio-SoftFever, Bambu Studio is forked from PrusaSlicer by Prusa Research, which is from Slic3r by Alessandro Ranellucci and the RepRap community"
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+project_categories: "3D Printing"
 project_blurb_optional_extras_enabled: false
 # supported architectures
 available_architectures:
