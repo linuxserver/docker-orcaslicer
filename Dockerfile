@@ -43,10 +43,14 @@ RUN \
     ORCASLICER_VERSION=$(curl -sX GET "https://api.github.com/repos/SoftFever/OrcaSlicer/releases/latest" \
     | awk '/tag_name/{print $4;exit}' FS='[""]'); \
   fi && \
+  if [ -z ${ORCASLICER_URL+x} ]; then \
+    ORCASLICER_URL=$(curl -sX GET "https://api.github.com/repos/SoftFever/OrcaSlicer/releases/tags/v2.3.0-beta" \
+    | awk '/browser_download_url/ && /AppImage/ {print $NF;exit;}' FS='[""]'); \
+  fi && \
   cd /tmp && \
   curl -o \
     /tmp/orca.app -L \
-    "https://github.com/SoftFever/OrcaSlicer/releases/download/${ORCASLICER_VERSION}/OrcaSlicer_Linux_$(echo ${ORCASLICER_VERSION} | sed 's/\b\(.\)/\u\1/g').AppImage" && \
+    $ORCASLICER_URL \
   chmod +x /tmp/orca.app && \
   ./orca.app --appimage-extract && \
   mv squashfs-root /opt/orcaslicer && \
