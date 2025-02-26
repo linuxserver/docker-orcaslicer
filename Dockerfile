@@ -44,9 +44,8 @@ RUN \
     | awk '/tag_name/{print $4;exit}' FS='[""]'); \
   fi && \
   cd /tmp && \
-  curl -o \
-    /tmp/orca.app -L \
-    "https://github.com/SoftFever/OrcaSlicer/releases/download/${ORCASLICER_VERSION}/OrcaSlicer_Linux_$(echo ${ORCASLICER_VERSION} | sed 's/\b\(.\)/\u\1/g').AppImage" && \
+  curl -o /tmp/orca.app -L $(curl -sX GET "https://api.github.com/repos/SoftFever/OrcaSlicer/releases/tags/${ORCASLICER_VERSION}" \
+  | awk '/browser_download_url/ && /AppImage/ {print $4;exit;}' FS='[""]') && \
   chmod +x /tmp/orca.app && \
   ./orca.app --appimage-extract && \
   mv squashfs-root /opt/orcaslicer && \
