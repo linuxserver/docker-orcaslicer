@@ -99,7 +99,7 @@ corepack                                                                      0.
 coreutils                                                                     9.1-1                                   deb                         
 cors                                                                          2.8.5                                   npm                         
 cpp                                                                           4:12.2.0-3                              deb                         
-cpp-12                                                                        12.2.0-14                               deb                         
+cpp-12                                                                        12.2.0-14+deb12u1                       deb                         
 cron                                                                          3.0pl1-162                              deb                         
 cron-daemon-common                                                            3.0pl1-162                              deb                         
 cross-spawn                                                                   7.0.3                                   npm                         
@@ -183,7 +183,7 @@ file-uri-to-path                                                              1.
 filelist                                                                      1.0.4                                   npm                         
 finalhandler                                                                  1.3.1                                   npm                         
 findutils                                                                     4.9.0-4                                 deb                         
-firefox-esr                                                                   128.10.0esr-1~deb12u1                   deb                         
+firefox-esr                                                                   128.10.1esr-1~deb12u1                   deb                         
 fontconfig                                                                    2.14.1-4                                deb                         
 fontconfig-config                                                             2.14.1-4                                deb                         
 fonts-dejavu-core                                                             2.37-6                                  deb                         
@@ -198,7 +198,7 @@ fs-minipass                                                                   3.
 function-bind                                                                 1.1.2                                   npm                         
 fuse-overlayfs                                                                1.10-1                                  deb                         
 fuse3                                                                         3.14.0-4                                deb                         
-gcc-12-base                                                                   12.2.0-14                               deb                         
+gcc-12-base                                                                   12.2.0-14+deb12u1                       deb                         
 gdal-data                                                                     3.6.2+dfsg-1                            deb                         
 gdal-plugins                                                                  3.6.2+dfsg-1+b2                         deb                         
 get-intrinsic                                                                 1.3.0                                   npm                         
@@ -302,12 +302,13 @@ github.com/davecgh/go-spew                                                    v1
 github.com/deckarep/golang-set/v2                                             v2.3.0                                  go-module                   
 github.com/dimchansky/utfbom                                                  v1.1.1                                  go-module                   
 github.com/distribution/reference                                             v0.6.0                                  go-module  (+4 duplicates)  
-github.com/docker/buildx                                                      v0.23.0                                 go-module  (+1 duplicate)   
+github.com/docker/buildx                                                      UNKNOWN                                 go-module                   
+github.com/docker/buildx                                                      v0.23.0                                 go-module                   
 github.com/docker/cli                                                         v28.0.4+incompatible                    go-module                   
 github.com/docker/cli                                                         v28.1.0+incompatible                    go-module                   
 github.com/docker/cli-docs-tool                                               v0.9.0                                  go-module  (+1 duplicate)   
-github.com/docker/cli/cmd/docker                                              v28.1.1                                 go-module                   
-github.com/docker/compose/v2                                                  v2.35.1                                 go-module                   
+github.com/docker/cli/cmd/docker                                              UNKNOWN                                 go-module                   
+github.com/docker/compose/v2                                                  UNKNOWN                                 go-module                   
 github.com/docker/distribution                                                v2.8.3+incompatible                     go-module  (+2 duplicates)  
 github.com/docker/docker                                                      v28.0.4+incompatible                    go-module                   
 github.com/docker/docker                                                      v28.1.0+incompatible                    go-module                   
@@ -444,7 +445,7 @@ github.com/opencontainers/cgroups                                             v0
 github.com/opencontainers/go-digest                                           v1.0.0                                  go-module  (+7 duplicates)  
 github.com/opencontainers/image-spec                                          v1.1.0                                  go-module  (+4 duplicates)  
 github.com/opencontainers/image-spec                                          v1.1.1                                  go-module  (+2 duplicates)  
-github.com/opencontainers/runc                                                v1.2.5-0-g59923ef                       go-module                   
+github.com/opencontainers/runc                                                v0.0.0-20250213225849-59923ef18c98      go-module                   
 github.com/opencontainers/runtime-spec                                        v1.1.0                                  go-module  (+4 duplicates)  
 github.com/opencontainers/runtime-spec                                        v1.2.0                                  go-module  (+1 duplicate)   
 github.com/opencontainers/runtime-tools                                       v0.9.1-0.20221107090550-2e043c6bd626    go-module  (+1 duplicate)   
@@ -698,7 +699,7 @@ lazr-restfulclient                                                            0.
 lazr-uri                                                                      1.0.6                                   python                      
 liba52-0.7.4                                                                  0.7.4-20                                deb                         
 libaa1                                                                        1.4p5-50                                deb                         
-libabsl20220623                                                               20220623.1-1                            deb                         
+libabsl20220623                                                               20220623.1-1+deb12u2                    deb                         
 libacl1                                                                       2.3.1-3                                 deb                         
 libaec0                                                                       1.0.6-1+b1                              deb                         
 libalgorithm-c3-perl                                                          0.11-2                                  deb                         
@@ -720,7 +721,7 @@ libassuan0                                                                    2.
 libasyncns0                                                                   0.8-6+b3                                deb                         
 libatk-bridge2.0-0                                                            2.46.0-5                                deb                         
 libatk1.0-0                                                                   2.46.0-5                                deb                         
-libatomic1                                                                    12.2.0-14                               deb                         
+libatomic1                                                                    12.2.0-14+deb12u1                       deb                         
 libatspi2.0-0                                                                 2.46.0-5                                deb                         
 libattr1                                                                      1:2.5.1-4                               deb                         
 libaudit-common                                                               1:3.0.9-1                               deb                         
@@ -863,7 +864,7 @@ libfyba0                                                                      4.
 libgav1-1                                                                     0.18.0-1+b1                             deb                         
 libgbm-dev                                                                    22.3.6-1+deb12u1                        deb                         
 libgbm1                                                                       22.3.6-1+deb12u1                        deb                         
-libgcc-s1                                                                     12.2.0-14                               deb                         
+libgcc-s1                                                                     12.2.0-14+deb12u1                       deb                         
 libgcrypt20                                                                   1.10.1-3                                deb                         
 libgd3                                                                        2.3.3-9                                 deb                         
 libgdal32                                                                     3.6.2+dfsg-1+b2                         deb                         
@@ -876,7 +877,7 @@ libgdk-pixbuf2.0-common                                                       2.
 libgeos-c1v5                                                                  3.11.1-1                                deb                         
 libgeos3.11.1                                                                 3.11.1-1                                deb                         
 libgeotiff5                                                                   1.7.1-2+b1                              deb                         
-libgfortran5                                                                  12.2.0-14                               deb                         
+libgfortran5                                                                  12.2.0-14+deb12u1                       deb                         
 libgif7                                                                       5.2.1-2.5                               deb                         
 libgirepository-1.0-1                                                         1.74.0-3                                deb                         
 libgl-dev                                                                     1.6.0-1                                 deb                         
@@ -888,11 +889,11 @@ libgles-dev                                                                   1.
 libgles1                                                                      1.6.0-1                                 deb                         
 libgles2                                                                      1.6.0-1                                 deb                         
 libglew2.2                                                                    2.2.0-4+b1                              deb                         
-libglib2.0-0                                                                  2.74.6-2+deb12u5                        deb                         
-libglib2.0-bin                                                                2.74.6-2+deb12u5                        deb                         
-libglib2.0-data                                                               2.74.6-2+deb12u5                        deb                         
-libglib2.0-dev                                                                2.74.6-2+deb12u5                        deb                         
-libglib2.0-dev-bin                                                            2.74.6-2+deb12u5                        deb                         
+libglib2.0-0                                                                  2.74.6-2+deb12u6                        deb                         
+libglib2.0-bin                                                                2.74.6-2+deb12u6                        deb                         
+libglib2.0-data                                                               2.74.6-2+deb12u6                        deb                         
+libglib2.0-dev                                                                2.74.6-2+deb12u6                        deb                         
+libglib2.0-dev-bin                                                            2.74.6-2+deb12u6                        deb                         
 libglu1-mesa                                                                  9.0.2-1.1                               deb                         
 libglu1-mesa-dev                                                              9.0.2-1.1                               deb                         
 libglvnd0                                                                     1.6.0-1                                 deb                         
@@ -903,7 +904,7 @@ libgme0                                                                       0.
 libgmp10                                                                      2:6.2.1+dfsg1-1.1                       deb                         
 libgnutls-dane0                                                               3.7.9-2+deb12u4                         deb                         
 libgnutls30                                                                   3.7.9-2+deb12u4                         deb                         
-libgomp1                                                                      12.2.0-14                               deb                         
+libgomp1                                                                      12.2.0-14+deb12u1                       deb                         
 libgpg-error0                                                                 1.46-1                                  deb                         
 libgphoto2-6                                                                  2.5.30-1                                deb                         
 libgphoto2-dev                                                                2.5.30-1                                deb                         
@@ -1173,7 +1174,7 @@ libpolkit-gobject-1-0                                                         12
 libpoppler-cpp0v5                                                             22.12.0-2+b1                            deb                         
 libpoppler126                                                                 22.12.0-2+b1                            deb                         
 libpostproc56                                                                 7:5.1.6-0+deb12u1                       deb                         
-libpq5                                                                        15.12-0+deb12u2                         deb                         
+libpq5                                                                        15.13-0+deb12u1                         deb                         
 libproc2-0                                                                    2:4.0.2-3                               deb                         
 libproj25                                                                     9.1.1-1+b1                              deb                         
 libprotobuf32                                                                 3.21.12-3                               deb                         
@@ -1190,19 +1191,19 @@ libpython3.11-stdlib                                                          3.
 libqhull-r8.0                                                                 2020.2-5                                deb                         
 libqpdf29                                                                     11.3.0-1+deb12u1                        deb                         
 libqrencode4                                                                  4.1.1-1                                 deb                         
-libqt5core5a                                                                  5.15.8+dfsg-11+deb12u2                  deb                         
-libqt5dbus5                                                                   5.15.8+dfsg-11+deb12u2                  deb                         
-libqt5gui5                                                                    5.15.8+dfsg-11+deb12u2                  deb                         
-libqt5network5                                                                5.15.8+dfsg-11+deb12u2                  deb                         
-libqt5opengl5                                                                 5.15.8+dfsg-11+deb12u2                  deb                         
+libqt5core5a                                                                  5.15.8+dfsg-11+deb12u3                  deb                         
+libqt5dbus5                                                                   5.15.8+dfsg-11+deb12u3                  deb                         
+libqt5gui5                                                                    5.15.8+dfsg-11+deb12u3                  deb                         
+libqt5network5                                                                5.15.8+dfsg-11+deb12u3                  deb                         
+libqt5opengl5                                                                 5.15.8+dfsg-11+deb12u3                  deb                         
 libqt5qml5                                                                    5.15.8+dfsg-3                           deb                         
 libqt5qmlmodels5                                                              5.15.8+dfsg-3                           deb                         
 libqt5quick5                                                                  5.15.8+dfsg-3                           deb                         
-libqt5test5                                                                   5.15.8+dfsg-11+deb12u2                  deb                         
+libqt5test5                                                                   5.15.8+dfsg-11+deb12u3                  deb                         
 libqt5waylandclient5                                                          5.15.8-2                                deb                         
-libqt5widgets5                                                                5.15.8+dfsg-11+deb12u2                  deb                         
+libqt5widgets5                                                                5.15.8+dfsg-11+deb12u3                  deb                         
 libqt5x11extras5                                                              5.15.8-2                                deb                         
-libquadmath0                                                                  12.2.0-14                               deb                         
+libquadmath0                                                                  12.2.0-14+deb12u1                       deb                         
 librabbitmq4                                                                  0.11.0-1+deb12u1                        deb                         
 libraptor2-0                                                                  2.0.15-4                                deb                         
 librav1e0                                                                     0.5.1-6                                 deb                         
@@ -1269,7 +1270,7 @@ libssh-gcrypt-4                                                               0.
 libssh2-1                                                                     1.10.0-3+b1                             deb                         
 libssl3                                                                       3.0.15-1~deb12u1                        deb                         
 libstartup-notification0                                                      0.12-6+b1                               deb                         
-libstdc++6                                                                    12.2.0-14                               deb                         
+libstdc++6                                                                    12.2.0-14+deb12u1                       deb                         
 libstemmer0d                                                                  2.2.0-2                                 deb                         
 libsub-exporter-perl                                                          0.989-1                                 deb                         
 libsub-exporter-progressive-perl                                              0.001013-3                              deb                         
@@ -1447,7 +1448,7 @@ libzstd1                                                                      1.
 libzvbi-common                                                                0.2.41-1                                deb                         
 libzvbi0                                                                      0.2.41-1                                deb                         
 libzxing2                                                                     1.4.0-3+b1                              deb                         
-linux-libc-dev                                                                6.1.135-1                               deb                         
+linux-libc-dev                                                                6.1.137-1                               deb                         
 locales                                                                       2.36-9+deb12u10                         deb                         
 locales-all                                                                   2.36-9+deb12u10                         deb                         
 login                                                                         1:4.13+dfsg1-1+b1                       deb                         
