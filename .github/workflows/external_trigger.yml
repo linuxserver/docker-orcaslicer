@@ -110,6 +110,12 @@ jobs:
             echo "New version \`${EXT_RELEASE}\` found; but there already seems to be an active build on Jenkins; exiting" >> $GITHUB_STEP_SUMMARY
             exit 0
           else
+            assets=$(curl -u "${{ secrets.CR_USER }}:${{ secrets.CR_PAT }}" -sX GET "https://api.github.com/repos/SoftFever/OrcaSlicer/releases/tags/${EXT_RELEASE}" | jq -r '.assets[].browser_download_url')
+            if grep -q "OrcaSlicer_Linux_AppImage_Ubuntu2404" <<< "${assets}"; then
+              artifacts_found="true"
+            else
+              artifacts_found="false"
+            fi
             if [[ "${artifacts_found}" == "false" ]]; then
               echo "> [!WARNING]" >> $GITHUB_STEP_SUMMARY
               echo "> New version detected, but not all artifacts are published yet; skipping trigger" >> $GITHUB_STEP_SUMMARY
