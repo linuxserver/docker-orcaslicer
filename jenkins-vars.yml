@@ -6,6 +6,13 @@ external_type: github_stable
 release_type: stable
 release_tag: latest
 ls_branch: master
+external_artifact_check: |
+  assets=$(curl -u "${{ '{{' }} secrets.CR_USER {{ '}}' }}:${{ '{{' }} secrets.CR_PAT {{ '}}' }}" -sX GET "https://api.github.com/repos/SoftFever/OrcaSlicer/releases/tags/${EXT_RELEASE}" | jq -r '.assets[].browser_download_url')
+  if grep -q "OrcaSlicer_Linux_AppImage_Ubuntu2404" <<< "${assets}"; then
+    artifacts_found="true"
+  else
+    artifacts_found="false"
+  fi
 repo_vars:
   - EXT_USER = 'SoftFever'
   - EXT_REPO = 'OrcaSlicer'
@@ -20,8 +27,8 @@ repo_vars:
   - MULTIARCH = 'false'
   - CI = 'true'
   - CI_WEB = 'true'
-  - CI_PORT = '3000'
-  - CI_SSL = 'false'
+  - CI_PORT = '3001'
+  - CI_SSL = 'true'
   - CI_DELAY = '120'
   - CI_DOCKERENV = 'TZ=US/Pacific'
   - CI_AUTH = 'user:password'
