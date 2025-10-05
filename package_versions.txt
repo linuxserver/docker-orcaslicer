@@ -71,7 +71,7 @@ dirmngr                                                                       2.
 distro                                                                        1.9.0                                   python                       
 distro-info-data                                                              0.60ubuntu0.3                           deb                          
 dnspython                                                                     2.8.0                                   python                       
-docker-buildx-plugin                                                          0.29.0-0~ubuntu.24.04~noble             deb                          
+docker-buildx-plugin                                                          0.29.1-1~ubuntu.24.04~noble             deb                          
 docker-ce                                                                     5:28.5.0-1~ubuntu.24.04~noble           deb                          
 docker-ce-cli                                                                 5:28.5.0-1~ubuntu.24.04~noble           deb                          
 docker-compose-plugin                                                         2.39.4-0~ubuntu.24.04~noble             deb                          
@@ -83,7 +83,7 @@ emacsen-common                                                                3.
 evdev                                                                         1.9.2                                   python                       
 file                                                                          1:5.45-3build1                          deb                          
 findutils                                                                     4.9.0-5build1                           deb                          
-firefox                                                                       1:143.0.3+build1-1xtradeb1.2404.1       deb                          
+firefox                                                                       1:143.0.4+build1-1xtradeb1.2404.1       deb                          
 fontconfig                                                                    2.15.0-1.1ubuntu2                       deb                          
 fontconfig-config                                                             2.15.0-1.1ubuntu2                       deb                          
 fonts-noto-cjk                                                                1:20230817+repack1-3                    deb                          
@@ -209,7 +209,7 @@ github.com/deckarep/golang-set/v2                                             v2
 github.com/dimchansky/utfbom                                                  v1.1.1                                  go-module                    
 github.com/distribution/reference                                             v0.6.0                                  go-module  (+4 duplicates)   
 github.com/docker/buildx                                                      v0.28.0                                 go-module                    
-github.com/docker/buildx                                                      v0.29.0                                 go-module                    
+github.com/docker/buildx                                                      v0.29.1                                 go-module                    
 github.com/docker/cli                                                         v28.4.0+incompatible                    go-module  (+1 duplicate)    
 github.com/docker/cli-docs-tool                                               v0.10.0                                 go-module  (+1 duplicate)    
 github.com/docker/cli/cmd/docker                                              UNKNOWN                                 go-module                    
