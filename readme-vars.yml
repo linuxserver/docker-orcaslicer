@@ -106,6 +106,7 @@ init_diagram: |
   "orcaslicer:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "25.11.25:", desc: "Update project repo name."}
   - {date: "15.09.25:", desc: "Rebase to Ubuntu Noble and Selkies, HTTPS is now required."}
   - {date: "10.02.24:", desc: "Update Readme with new env vars and ingest proper PWA icon."}
   - {date: "15.11.23:", desc: "Initial release."}

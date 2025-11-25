@@ -566,6 +566,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **25.11.25:** - Update project repo name.
 * **15.09.25:** - Rebase to Ubuntu Noble and Selkies, HTTPS is now required.
 * **10.02.24:** - Update Readme with new env vars and ingest proper PWA icon.
 * **15.11.23:** - Initial release.
