@@ -591,6 +591,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **01.01.26:** - Add wayland init.
 * **25.11.25:** - Update project repo name.
 * **15.09.25:** - Rebase to Ubuntu Noble and Selkies, HTTPS is now required.
 * **10.02.24:** - Update Readme with new env vars and ingest proper PWA icon.

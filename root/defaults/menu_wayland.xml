@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+<menu id="root-menu" label="MENU">
+<item label="foot" icon="/usr/share/pixmaps/xterm-color_48x48.xpm"><action name="Execute"><command>/usr/bin/foot</command></action></item>
+<item label="FireFox" icon="/usr/share/icons/hicolor/48x48/apps/firefox.png"><action name="Execute"><command>/usr/bin/firefox</command></action></item>
+<item label="OrcaSlicer" icon="/opt/orcaslicer/OrcaSlicer.png"><action name="Execute"><command>/opt/orcaslicer/AppRun</command></action></item>
+</menu>
+</openbox_menu>
