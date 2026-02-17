@@ -104,7 +104,7 @@ gcc                                                                           4:
 gcc-13                                                                        13.3.0-6ubuntu2~24.04                   deb                         
 gcc-13-base                                                                   13.3.0-6ubuntu2~24.04                   deb                         
 gcc-13-x86-64-linux-gnu                                                       13.3.0-6ubuntu2~24.04                   deb                         
-gcc-14-base                                                                   14.2.0-4ubuntu2~24.04                   deb                         
+gcc-14-base                                                                   14.2.0-4ubuntu2~24.04.1                 deb                         
 gcc-x86-64-linux-gnu                                                          4:13.2.0-7ubuntu1                       deb                         
 gdal-data                                                                     3.8.4+dfsg-3ubuntu3                     deb                         
 gdal-plugins                                                                  3.8.4+dfsg-3ubuntu3                     deb                         
@@ -671,7 +671,7 @@ libarchive13t64                                                               3.
 libargon2-1                                                                   0~20190702+dfsg-4build1                 deb                         
 libarmadillo12                                                                1:12.6.7+dfsg-1build2                   deb                         
 libarpack2t64                                                                 3.9.1-1.1build2                         deb                         
-libasan8                                                                      14.2.0-4ubuntu2~24.04                   deb                         
+libasan8                                                                      14.2.0-4ubuntu2~24.04.1                 deb                         
 libasound2-data                                                               1.2.11-1ubuntu0.1                       deb                         
 libasound2-plugins                                                            1.2.7.1-1ubuntu5                        deb                         
 libasound2t64                                                                 1.2.11-1ubuntu0.1                       deb                         
@@ -681,7 +681,7 @@ libassuan0                                                                    2.
 libasyncns0                                                                   0.8-6build4                             deb                         
 libatk-bridge2.0-0t64                                                         2.52.0-1build1                          deb                         
 libatk1.0-0t64                                                                2.52.0-1build1                          deb                         
-libatomic1                                                                    14.2.0-4ubuntu2~24.04                   deb                         
+libatomic1                                                                    14.2.0-4ubuntu2~24.04.1                 deb                         
 libatspi2.0-0t64                                                              2.52.0-1build1                          deb                         
 libattr1                                                                      1:2.5.2-1build1.1                       deb                         
 libaudit-common                                                               1:3.1.2-2.1build1.1                     deb                         
@@ -720,7 +720,7 @@ libcap-ng0                                                                    0.
 libcap2                                                                       1:2.66-5ubuntu2.2                       deb                         
 libcap2-bin                                                                   1:2.66-5ubuntu2.2                       deb                         
 libcbor0.10                                                                   0.10.2-1.2ubuntu2                       deb                         
-libcc1-0                                                                      14.2.0-4ubuntu2~24.04                   deb                         
+libcc1-0                                                                      14.2.0-4ubuntu2~24.04.1                 deb                         
 libcdio19t64                                                                  2.1.0-4.1ubuntu1.2                      deb                         
 libcdparanoia0                                                                3.10.2+debian-14build3                  deb                         
 libcfitsio10t64                                                               4.3.1-1.1build2                         deb                         
@@ -808,7 +808,7 @@ libfyba0t64                                                                   4.
 libgbm-dev                                                                    25.2.8-0ubuntu0.24.04.1                 deb                         
 libgbm1                                                                       25.2.8-0ubuntu0.24.04.1                 deb                         
 libgcc-13-dev                                                                 13.3.0-6ubuntu2~24.04                   deb                         
-libgcc-s1                                                                     14.2.0-4ubuntu2~24.04                   deb                         
+libgcc-s1                                                                     14.2.0-4ubuntu2~24.04.1                 deb                         
 libgcrypt20                                                                   1.10.3-2build1                          deb                         
 libgd3                                                                        2.3.3-9ubuntu5                          deb                         
 libgdal34t64                                                                  3.8.4+dfsg-3ubuntu3                     deb                         
@@ -821,7 +821,7 @@ libgdk-pixbuf2.0-common                                                       2.
 libgeos-c1t64                                                                 3.12.1-3build1                          deb                         
 libgeos3.12.1t64                                                              3.12.1-3build1                          deb                         
 libgeotiff5                                                                   1.7.1-5build1                           deb                         
-libgfortran5                                                                  14.2.0-4ubuntu2~24.04                   deb                         
+libgfortran5                                                                  14.2.0-4ubuntu2~24.04.1                 deb                         
 libgif7                                                                       5.2.2-1ubuntu1                          deb                         
 libgirepository-1.0-1                                                         1.80.1-1                                deb                         
 libgirepository-2.0-0                                                         2.80.0-6ubuntu3.8                       deb                         
@@ -847,7 +847,7 @@ libglx0                                                                       1.
 libgme0                                                                       0.6.3-7build1                           deb                         
 libgmp10                                                                      2:6.3.0+dfsg-2ubuntu6.1                 deb                         
 libgnutls30t64                                                                3.8.3-1.1ubuntu3.4                      deb                         
-libgomp1                                                                      14.2.0-4ubuntu2~24.04                   deb                         
+libgomp1                                                                      14.2.0-4ubuntu2~24.04.1                 deb                         
 libgpg-error0                                                                 1.47-3build2.1                          deb                         
 libgphoto2-6t64                                                               2.5.31-2.1build2                        deb                         
 libgphoto2-dev                                                                2.5.31-2.1build2                        deb                         
@@ -890,7 +890,7 @@ libhogweed6t64                                                                3.
 libhsa-runtime64-1                                                            5.7.1-2build1                           deb                         
 libhsakmt1                                                                    5.7.0-1build1                           deb                         
 libhunspell-1.7-0                                                             1.7.2+really1.7.2-10build3              deb                         
-libhwasan0                                                                    14.2.0-4ubuntu2~24.04                   deb                         
+libhwasan0                                                                    14.2.0-4ubuntu2~24.04.1                 deb                         
 libhwloc-plugins                                                              2.10.0-1build1                          deb                         
 libhwloc15                                                                    2.10.0-1build1                          deb                         
 libhwy1t64                                                                    1.0.7-8.1build1                         deb                         
@@ -913,7 +913,7 @@ libinstpatch-1.0-2                                                            1.
 libip4tc2                                                                     1.8.10-3ubuntu2                         deb                         
 libip6tc2                                                                     1.8.10-3ubuntu2                         deb                         
 libisl23                                                                      0.26-3build1.1                          deb                         
-libitm1                                                                       14.2.0-4ubuntu2~24.04                   deb                         
+libitm1                                                                       14.2.0-4ubuntu2~24.04.1                 deb                         
 libjack-jackd2-0                                                              1.9.21~dfsg-3ubuntu3                    deb                         
 libjansson4                                                                   2.14-2build2                            deb                         
 libjavascriptcoregtk-4.1-0                                                    2.50.4-0ubuntu0.24.04.1                 deb                         
@@ -955,7 +955,7 @@ libllvm17t64                                                                  1:
 libllvm20                                                                     1:20.1.2-0ubuntu1~24.04.2               deb                         
 liblocale-gettext-perl                                                        1.07-6ubuntu5                           deb                         
 liblrdf0                                                                      0.6.1-4build1                           deb                         
-liblsan0                                                                      14.2.0-4ubuntu2~24.04                   deb                         
+liblsan0                                                                      14.2.0-4ubuntu2~24.04.1                 deb                         
 libltc11                                                                      1.3.2-1build1                           deb                         
 libltdl7                                                                      2.4.7-7build1                           deb                         
 liblz4-1                                                                      1.9.4-1build1.1                         deb                         
@@ -1132,7 +1132,7 @@ libqt5test5t64                                                                5.
 libqt5waylandclient5                                                          5.15.13-1                               deb                         
 libqt5widgets5t64                                                             5.15.13+dfsg-1ubuntu1                   deb                         
 libqt5x11extras5                                                              5.15.13-1                               deb                         
-libquadmath0                                                                  14.2.0-4ubuntu2~24.04                   deb                         
+libquadmath0                                                                  14.2.0-4ubuntu2~24.04.1                 deb                         
 librabbitmq4                                                                  0.11.0-1build2                          deb                         
 libraptor2-0                                                                  2.0.16-3ubuntu0.1                       deb                         
 librav1e0                                                                     0.7.1-2                                 deb                         
@@ -1202,7 +1202,7 @@ libssh-gcrypt-4                                                               0.
 libssl3t64                                                                    3.0.13-0ubuntu3.7                       deb                         
 libstartup-notification0                                                      0.12-6build3                            deb                         
 libstdc++-13-dev                                                              13.3.0-6ubuntu2~24.04                   deb                         
-libstdc++6                                                                    14.2.0-4ubuntu2~24.04                   deb                         
+libstdc++6                                                                    14.2.0-4ubuntu2~24.04.1                 deb                         
 libstemmer0d                                                                  2.2.0-4build1                           deb                         
 libsuperlu6                                                                   6.0.1+dfsg1-1build1                     deb                         
 libsvtav1enc1d1                                                               1.7.0+dfsg-2build1                      deb                         
@@ -1234,9 +1234,9 @@ libtinfo6                                                                     6.
 libtirpc-common                                                               1.3.4+ds-1.1build1                      deb                         
 libtirpc3t64                                                                  1.3.4+ds-1.1build1                      deb                         
 libtk8.6                                                                      8.6.14-1build1                          deb                         
-libtsan2                                                                      14.2.0-4ubuntu2~24.04                   deb                         
+libtsan2                                                                      14.2.0-4ubuntu2~24.04.1                 deb                         
 libtwolame0                                                                   0.4.0-2build3                           deb                         
-libubsan1                                                                     14.2.0-4ubuntu2~24.04                   deb                         
+libubsan1                                                                     14.2.0-4ubuntu2~24.04.1                 deb                         
 libuchardet0                                                                  0.0.8-1build1                           deb                         
 libucx0                                                                       1.16.0+ds-5ubuntu1                      deb                         
 libudev-dev                                                                   255.4-1ubuntu8.12                       deb                         
