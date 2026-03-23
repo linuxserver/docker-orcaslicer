@@ -38,6 +38,7 @@ RUN \
     gstreamer1.0-tools \
     gstreamer1.0-x \
     libgstreamer-plugins-bad1.0 \
+    libmspack0 \
     libwebkit2gtk-4.1-0 \
     libwx-perl && \
   echo "**** install orcaslicer from appimage ****" && \
