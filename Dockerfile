@@ -12,7 +12,8 @@ LABEL maintainer="thelamer"
 # title
 ENV TITLE=OrcaSlicer \
     SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt \
-    NO_GAMEPAD=true
+    NO_GAMEPAD=true \
+    PIXELFLUX_WAYLAND=true
 
 RUN \
   echo "**** add icon ****" && \
