@@ -612,6 +612,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **29.03.26:** - Make Wayland default disable with PIXELFLUX_WAYLAND=false.
 * **01.01.26:** - Add wayland init.
 * **25.11.25:** - Update project repo name.
 * **15.09.25:** - Rebase to Ubuntu Noble and Selkies, HTTPS is now required.
