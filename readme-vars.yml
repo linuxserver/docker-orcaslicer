@@ -106,6 +106,7 @@ init_diagram: |
   "orcaslicer:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "19.04.26:", desc: "Rebase to resolute."}
   - {date: "29.03.26:", desc: "Make Wayland default disable with PIXELFLUX_WAYLAND=false."}
   - {date: "01.01.26:", desc: "Add wayland init."}
   - {date: "25.11.25:", desc: "Update project repo name."}
