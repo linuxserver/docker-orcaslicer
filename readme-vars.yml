@@ -77,7 +77,6 @@ init_diagram: |
     svc-dbus -> legacy-services
     init-services -> svc-de
     svc-nginx -> svc-de
-    svc-selkies -> svc-de
     svc-xorg -> svc-de
     svc-de -> legacy-services
     init-services -> svc-docker
@@ -87,6 +86,7 @@ init_diagram: |
     init-services -> svc-pulseaudio
     svc-pulseaudio -> legacy-services
     init-services -> svc-selkies
+    svc-dbus -> svc-selkies
     svc-nginx -> svc-selkies
     svc-pulseaudio -> svc-selkies
     svc-xorg -> svc-selkies
@@ -101,7 +101,7 @@ init_diagram: |
     svc-xsettingsd -> legacy-services
   }
   Base Images: {
-    "baseimage-selkies:ubunturesolute" <- "baseimage-ubuntu:resolute"
+    "baseimage-selkies:debiantrixie" <- "baseimage-debian:trixie"
   }
   "orcaslicer:latest" <- Base Images
 # changelog
