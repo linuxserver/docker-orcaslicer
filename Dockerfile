@@ -1,5 +1,4 @@
 # syntax=docker/dockerfile:1
-
 FROM ghcr.io/linuxserver/baseimage-selkies:ubuntunoble
 
 # set version label
@@ -20,6 +19,15 @@ RUN \
   curl -o \
     /usr/share/selkies/www/icon.png \
     https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/orcaslicer-logo.png && \
+  echo "**** add mozilla apt repo ****" && \
+  install -d -m 0755 /etc/apt/keyrings && \
+  curl -o \
+    /etc/apt/keyrings/packages.mozilla.org.asc -L \
+    https://packages.mozilla.org/apt/repo-signing-key.gpg && \
+  echo \
+    "deb [signed-by=/etc/apt/keyrings/packages.mozilla.org.asc] https://packages.mozilla.org/apt mozilla main" > \
+    /etc/apt/sources.list.d/mozilla.list && \
+  printf \
     "Package: *\nPin: origin packages.mozilla.org\nPin-Priority: 1000\n" > \
     /etc/apt/preferences.d/mozilla && \
   echo "**** install packages ****" && \
