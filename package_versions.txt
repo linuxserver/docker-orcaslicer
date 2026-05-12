@@ -85,7 +85,7 @@ exim4-config                                                                  4.
 exim4-daemon-light                                                            4.98.2-1                               deb                         
 file                                                                          1:5.46-5                               deb                         
 findutils                                                                     4.10.0-3                               deb                         
-firefox                                                                       150.0.2~build2                         deb                         
+firefox                                                                       150.0.3~build1                         deb                         
 firmware-amd-graphics                                                         20250410-2                             deb                         
 firmware-linux-nonfree                                                        20250410-2                             deb                         
 firmware-misc-nonfree                                                         20250410-2                             deb                         
