@@ -1,0 +1,27 @@
+name: Sync with Upstream
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote add upstream https://github.com/linuxserver/docker-orcaslicer.git
+          git fetch upstream master
+          git checkout snapmaker-orca 2>/dev/null || git checkout -b snapmaker-orca
+          git rebase upstream/master || (git checkout --ours Dockerfile && git add Dockerfile && git rebase --continue)
+          git push origin snapmaker-orca -f
