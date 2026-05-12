@@ -50,20 +50,25 @@ RUN \
     libgstreamer-plugins-bad1.0 \
     libmspack0 \
     libwebkit2gtk-4.1-0 \
-    libwx-perl && \
-  echo "**** install snapmaker orcaslicer from appimage ****" && \
+    libwx-perl \
+    unzip && \
+  echo "**** install snapmaker orcaslicer ****" && \
   if [ -z ${ORCASLICER_VERSION+x} ]; then \
     ORCASLICER_VERSION=$(curl -sX GET "https://api.github.com/repos/Snapmaker/OrcaSlicer/releases/latest" \
     | awk '/tag_name/{print $4;exit}' FS='[""]'); \
   fi && \
-  RELEASE_URL=$(curl -sX GET "https://api.github.com/repos/Snapmaker/OrcaSlicer/releases/latest" | awk '/url/{print $4;exit}' FS='[""]') && \
-  DOWNLOAD_URL=$(curl -sX GET "${RELEASE_URL}" | awk '/browser_download_url.*Ubuntu.*AppImage/{print $4;exit}' FS='[""]') && \
-  cd /tmp && \
-  curl -o \
-    /tmp/orca.app -L \
-    "${DOWNLOAD_URL}" && \
-  chmod +x /tmp/orca.app && \
-  ./orca.app --appimage-extract && \
+  echo "Building OrcaSlicer version: ${ORCASLICER_VERSION}" && \
+  DOWNLOAD_URL=$(curl -sX GET "https://api.github.com/repos/Snapmaker/OrcaSlicer/releases/latest" \
+    | awk '/browser_download_url.*ubuntu.*zip/{print $4;exit}' FS='[""]') && \
+  if [ -z "${DOWNLOAD_URL}" ]; then \
+    echo "ERROR: Could not find Ubuntu zip download URL" && exit 1; \
+  fi && \
+  echo "Downloading from: ${DOWNLOAD_URL}" && \
+  curl -o /tmp/orca.zip -L "${DOWNLOAD_URL}" && \
+  unzip /tmp/orca.zip -d /tmp/orca_extracted && \
+  chmod +x /tmp/orca_extracted/*.AppImage && \
+  cd /tmp/orca_extracted && \
+  ./*.AppImage --appimage-extract && \
   mv squashfs-root /opt/orcaslicer && \
   localedef -i en_GB -f UTF-8 en_GB.UTF-8 || true && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
