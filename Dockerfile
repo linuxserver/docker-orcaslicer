@@ -10,7 +10,7 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 LABEL maintainer="thelamer"
 
 # title
-ENV TITLE=OrcaSlicer \
+ENV TITLE="OrcaSlicer (Snapmaker)" \
     SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt \
     NO_GAMEPAD=true \
     PIXELFLUX_WAYLAND=true
@@ -52,13 +52,13 @@ RUN \
     libmspack0 \
     libwebkit2gtk-4.1-0 \
     libwx-perl && \
-  echo "**** install orcaslicer from appimage ****" && \
+  echo "**** install snapmaker orcaslicer from appimage ****" && \
   if [ -z ${ORCASLICER_VERSION+x} ]; then \
-    ORCASLICER_VERSION=$(curl -sX GET "https://api.github.com/repos/OrcaSlicer/OrcaSlicer/releases/latest" \
+    ORCASLICER_VERSION=$(curl -sX GET "https://api.github.com/repos/Snapmaker/OrcaSlicer/releases/latest" \
     | awk '/tag_name/{print $4;exit}' FS='[""]'); \
   fi && \
-  RELEASE_URL=$(curl -sX GET "https://api.github.com/repos/OrcaSlicer/OrcaSlicer/releases/latest"     | awk '/url/{print $4;exit}' FS='[""]') && \
-  DOWNLOAD_URL=$(curl -sX GET "${RELEASE_URL}" | awk '/browser_download_url.*Ubuntu2404/{print $4;exit}' FS='[""]') && \
+  RELEASE_URL=$(curl -sX GET "https://api.github.com/repos/Snapmaker/OrcaSlicer/releases/latest" | awk '/url/{print $4;exit}' FS='[""]') && \
+  DOWNLOAD_URL=$(curl -sX GET "${RELEASE_URL}" | awk '/browser_download_url.*Ubuntu.*AppImage/{print $4;exit}' FS='[""]') && \
   cd /tmp && \
   curl -o \
     /tmp/orca.app -L \
