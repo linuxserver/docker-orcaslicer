@@ -29,7 +29,7 @@ pipeline {
     DEV_DOCKERHUB_IMAGE = 'lsiodev/orcaslicer'
     PR_DOCKERHUB_IMAGE = 'lspipepr/orcaslicer'
     DIST_IMAGE = 'ubuntu'
-    MULTIARCH = 'false'
+    MULTIARCH = 'true'
     CI = 'true'
     CI_WEB = 'true'
     CI_PORT = '3001'

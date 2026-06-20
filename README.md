@@ -52,7 +52,7 @@ The architectures supported by this image are:
 | Architecture | Available | Tag |
 | :----: | :----: | ---- |
 | x86-64 | ✅ | amd64-\<version tag\> |
-| arm64 | ❌ | |
+| arm64 | ✅ | arm64v8-\<version tag\> |
 
 ## Application Setup
 
@@ -643,6 +643,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **20.06.26:** - Add aarch64 platform.
 * **11.05.26:** - Rebase to Debian Trixie.
 * **19.04.26:** - Rebase to resolute.
 * **29.03.26:** - Make Wayland default disable with PIXELFLUX_WAYLAND=false.
