@@ -11,6 +11,7 @@ project_blurb_optional_extras_enabled: false
 # supported architectures
 available_architectures:
   - {arch: "{{ arch_x86_64 }}", tag: "latest"}
+  - {arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
 # development version
 development_versions: false
 # container parameters
@@ -106,6 +107,7 @@ init_diagram: |
   "orcaslicer:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "20.06.26:", desc: "Add aarch64 platform."}
   - {date: "11.05.26:", desc: "Rebase to Debian Trixie."}
   - {date: "19.04.26:", desc: "Rebase to resolute."}
   - {date: "29.03.26:", desc: "Make Wayland default disable with PIXELFLUX_WAYLAND=false."}
