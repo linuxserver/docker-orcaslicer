@@ -85,7 +85,7 @@ exim4-config                                                                  4.
 exim4-daemon-light                                                            4.98.2-1+deb13u3                       deb                         
 file                                                                          1:5.46-5                               deb                         
 findutils                                                                     4.10.0-3                               deb                         
-firefox                                                                       152.0~build1                           deb                         
+firefox                                                                       152.0.1~build1                         deb                         
 firmware-amd-graphics                                                         20250410-2                             deb                         
 firmware-linux-nonfree                                                        20250410-2                             deb                         
 firmware-misc-nonfree                                                         20250410-2                             deb                         
@@ -594,7 +594,7 @@ gsettings-desktop-schemas                                                     48
 gstreamer1.0-alsa                                                             1.26.2-1+deb13u1                       deb                         
 gstreamer1.0-gl                                                               1.26.2-1+deb13u1                       deb                         
 gstreamer1.0-gtk3                                                             1.26.2-1+deb13u1                       deb                         
-gstreamer1.0-libav                                                            1.26.2-1                               deb                         
+gstreamer1.0-libav                                                            1.26.2-1+deb13u1                       deb                         
 gstreamer1.0-plugins-bad                                                      1.26.2-3+deb13u1                       deb                         
 gstreamer1.0-plugins-base                                                     1.26.2-1+deb13u1                       deb                         
 gstreamer1.0-plugins-good                                                     1.26.2-1+deb13u1                       deb                         
