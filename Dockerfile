@@ -54,10 +54,10 @@ RUN \
   echo "**** install orcaslicer from appimage ****" && \
   if [ -z ${ORCASLICER_VERSION+x} ]; then \
     ORCASLICER_VERSION=$(curl -sX GET "https://api.github.com/repos/OrcaSlicer/OrcaSlicer/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+    | jq -r '.tag_name'); \
   fi && \
-  RELEASE_URL=$(curl -sX GET "https://api.github.com/repos/OrcaSlicer/OrcaSlicer/releases/latest"     | awk '/url/{print $4;exit}' FS='[""]') && \
-  DOWNLOAD_URL=$(curl -sX GET "${RELEASE_URL}" | awk '/browser_download_url.*Ubuntu2404_V/{print $4;exit}' FS='[""]') && \
+  RELEASE_URL=$(curl -sX GET "https://api.github.com/repos/OrcaSlicer/OrcaSlicer/releases/latest"     | jq -r '.url') && \
+  DOWNLOAD_URL=$(curl -sX GET "${RELEASE_URL}" | jq -r 'first(.assets[].browser_download_url | select(test("Ubuntu2404_V")))') && \
   cd /tmp && \
   curl -o \
     /tmp/orca.app -L \
