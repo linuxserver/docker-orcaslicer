@@ -108,6 +108,7 @@ init_diagram: |
   "orcaslicer:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "18.10.26:", desc: "Force OrcaSlicer to use the X11 GDK backend to fix UI rendering issues under Wayland."}
   - {date: "20.06.26:", desc: "Add aarch64 platform."}
   - {date: "11.05.26:", desc: "Rebase to Debian Trixie."}
   - {date: "19.04.26:", desc: "Rebase to resolute."}
