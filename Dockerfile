@@ -68,6 +68,7 @@ RUN \
   localedef -i en_GB -f UTF-8 en_GB.UTF-8 && \
   chmod +x /opt/orcaslicer/libexec/orca-slicer-env && \
   sed -i "1a export GDK_BACKEND=x11" /opt/orcaslicer/AppRun && \
+  find /opt/orcaslicer -type d -exec chmod 755 {} + && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
