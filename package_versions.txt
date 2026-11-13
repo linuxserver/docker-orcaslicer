@@ -1222,8 +1222,8 @@ libopencv-videostab-dev                                                       4.
 libopencv-videostab410                                                        4.10.0+dfsg-5                                            deb                          
 libopencv-viz-dev                                                             4.10.0+dfsg-5                                            deb                          
 libopencv-viz410                                                              4.10.0+dfsg-5                                            deb                          
-libopenexr-3-1-30                                                             3.1.13-2                                                 deb                          
-libopenexr-dev                                                                3.1.13-2                                                 deb                          
+libopenexr-3-1-30                                                             3.2.12-1~deb13u1                                         deb                          
+libopenexr-dev                                                                3.2.12-1~deb13u1                                         deb                          
 libopengl-dev                                                                 1.7.0-1+b2                                               deb                          
 libopengl0                                                                    1.7.0-1+b2                                               deb                          
 libopenh264-8                                                                 2.6.0+dfsg-2                                             deb                          
@@ -1267,7 +1267,7 @@ libpocketsphinx3                                                              0.
 libpoppler-cpp2                                                               25.03.0-5+deb13u4                                        deb                          
 libpoppler147                                                                 25.03.0-5+deb13u4                                        deb                          
 libpostproc58                                                                 7:7.1.5-0+deb13u1                                        deb                          
-libpq5                                                                        17.11-0+deb13u1                                          deb                          
+libpq5                                                                        17.12-0+deb13u1                                          deb                          
 libproc2-0                                                                    2:4.0.4-9                                                deb                          
 libproj25                                                                     9.6.0-1                                                  deb                          
 libprotobuf32t64                                                              3.21.12-11+deb13u1                                       deb                          
