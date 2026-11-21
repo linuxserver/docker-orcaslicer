@@ -11,7 +11,7 @@ aiohttp                                                                       3.
 aiosignal                                                                     1.4.0                                                    python                       
 ambient-authority                                                             0.0.2                                                    rust-crate                   
 ambient-id                                                                    0.0.11                                                   rust-crate                   
-annotated-doc                                                                 0.0.6                                                    python                       
+annotated-doc                                                                 0.0.7                                                    python                       
 annotated-types                                                               0.8.0                                                    python                       
 anstream                                                                      1.0.0                                                    rust-crate                   
 anstyle                                                                       1.0.14                                                   rust-crate                   
@@ -94,7 +94,7 @@ cap-std                                                                       4.
 cargo-util                                                                    0.2.32                                                   rust-crate                   
 catatonit                                                                     0.2.1-2+b14                                              deb                          
 cbc                                                                           0.1.2                                                    rust-crate                   
-certifi                                                                       2026.10.23                                               python                       
+certifi                                                                       2026.11.20                                               python                       
 cffi                                                                          2.1.1                                                    python                       
 cfg-if                                                                        1.0.4                                                    rust-crate                   
 chacha20                                                                      0.10.2                                                   rust-crate                   
@@ -194,10 +194,10 @@ displaydoc                                                                    0.
 dlv-list                                                                      0.5.2                                                    rust-crate                   
 dmsetup                                                                       2:1.02.205-2                                             deb                          
 dnspython                                                                     2.9.2                                                    python                       
-docker-buildx-plugin                                                          0.39.0-1~debian.13~trixie                                deb                          
+docker-buildx-plugin                                                          0.39.1-1~debian.13~trixie                                deb                          
 docker-ce                                                                     5:29.10.0-1~debian.13~trixie                             deb                          
 docker-ce-cli                                                                 5:29.10.0-1~debian.13~trixie                             deb                          
-docker-compose-plugin                                                         5.7.1-1~debian.13~trixie                                 deb                          
+docker-compose-plugin                                                         5.8.0-1~debian.13~trixie                                 deb                          
 dotenvy                                                                       0.15.7                                                   rust-crate                   
 dpkg                                                                          1.22.22                                                  deb                          
 dunce                                                                         1.0.5                                                    rust-crate                   
@@ -217,7 +217,7 @@ event-listener-strategy                                                       0.
 exim4-base                                                                    4.98.2-1+deb13u5                                         deb                          
 exim4-config                                                                  4.98.2-1+deb13u5                                         deb                          
 exim4-daemon-light                                                            4.98.2-1+deb13u5                                         deb                          
-fastapi                                                                       0.163.1                                                  python                       
+fastapi                                                                       0.165.0                                                  python                       
 fastrand                                                                      2.5.0                                                    rust-crate                   
 file                                                                          1:5.46-5                                                 deb                          
 filetime                                                                      0.2.29                                                   rust-crate                   
@@ -291,7 +291,7 @@ git-man                                                                       1:
 github.com/Azure/azure-sdk-for-go/sdk/azcore                                  v1.21.1                                                  go-module                    
 github.com/Azure/azure-sdk-for-go/sdk/internal                                v1.12.0                                                  go-module                    
 github.com/Azure/azure-sdk-for-go/sdk/storage/azblob                          v1.5.0                                                   go-module                    
-github.com/DefangLabs/secret-detector                                         v0.0.0-20260916192156-3e28d7ed64df                       go-module                    
+github.com/DefangLabs/secret-detector                                         v1.1.0                                                   go-module                    
 github.com/Graylog2/go-gelf                                                   v0.0.0-20191017102106-1550ee647df0                       go-module                    
 github.com/Masterminds/semver/v3                                              v3.4.0                                                   go-module                    
 github.com/Microsoft/hcsshim                                                  v0.15.0                                                  go-module                    
@@ -339,7 +339,7 @@ github.com/clipperhouse/uax29/v2                                              v2
 github.com/cloudflare/cfssl                                                   v1.6.5                                                   go-module                    
 github.com/cloudflare/circl                                                   v1.6.3                                                   go-module   (+2 duplicates)  
 github.com/compose-spec/compose-go/v2                                         v2.16.1                                                  go-module                    
-github.com/compose-spec/compose-go/v2                                         v2.16.2                                                  go-module                    
+github.com/compose-spec/compose-go/v2                                         v2.17.0                                                  go-module                    
 github.com/container-storage-interface/spec                                   v1.10.0                                                  go-module                    
 github.com/containerd/accelerated-container-image                             v1.3.0                                                   go-module                    
 github.com/containerd/btrfs/v2                                                v2.0.0                                                   go-module                    
@@ -379,11 +379,12 @@ github.com/digitorus/pkcs7                                                    v0
 github.com/digitorus/timestamp                                                v0.0.0-20231217203849-220c5c2851b7                       go-module   (+1 duplicate)   
 github.com/dimchansky/utfbom                                                  v1.1.1                                                   go-module                    
 github.com/distribution/reference                                             v0.6.0                                                   go-module   (+4 duplicates)  
-github.com/docker/buildx                                                      v0.39.0                                                  go-module                    
-github.com/docker/cli                                                         v29.9.3+incompatible                                     go-module   (+1 duplicate)   
+github.com/docker/buildx                                                      v0.39.1                                                  go-module                    
+github.com/docker/cli                                                         v29.10.0+incompatible                                    go-module                    
+github.com/docker/cli                                                         v29.9.3+incompatible                                     go-module                    
 github.com/docker/cli-docs-tool                                               v0.11.0                                                  go-module   (+1 duplicate)   
 github.com/docker/cli/cmd/docker                                              UNKNOWN                                                  go-module                    
-github.com/docker/compose/v5                                                  v5.7.1                                                   go-module                    
+github.com/docker/compose/v5                                                  v5.8.0                                                   go-module                    
 github.com/docker/distribution                                                v2.8.3+incompatible                                      go-module                    
 github.com/docker/docker                                                      v28.5.2+incompatible                                     go-module                    
 github.com/docker/docker-credential-helpers                                   v0.9.9                                                   go-module   (+1 duplicate)   
@@ -476,7 +477,6 @@ github.com/hashicorp/memberlist                                               v0
 github.com/hiddeco/sshsig                                                     v0.2.0                                                   go-module   (+1 duplicate)   
 github.com/in-toto/attestation                                                v1.2.0                                                   go-module   (+2 duplicates)  
 github.com/in-toto/in-toto-golang                                             v0.11.0                                                  go-module   (+2 duplicates)  
-github.com/inhies/go-bytesize                                                 v0.0.0-20220417184213-4913239db9cf                       go-module                    
 github.com/intel/goresctrl                                                    v0.13.0                                                  go-module   (+2 duplicates)  
 github.com/ishidawataru/sctp                                                  v0.0.0-20251114114122-19ddcbc6aae2                       go-module   (+1 duplicate)   
 github.com/jmoiron/sqlx                                                       v1.4.0                                                   go-module                    
@@ -505,19 +505,19 @@ github.com/mitchellh/copystructure                                            v1
 github.com/mitchellh/go-wordwrap                                              v1.0.1                                                   go-module                    
 github.com/mitchellh/reflectwalk                                              v1.0.2                                                   go-module                    
 github.com/moby/buildkit                                                      v0.33.1                                                  go-module                    
-github.com/moby/buildkit                                                      v0.35.0                                                  go-module   (+1 duplicate)   
+github.com/moby/buildkit                                                      v0.35.0                                                  go-module                    
+github.com/moby/buildkit                                                      v0.35.1                                                  go-module                    
 github.com/moby/docker-image-spec                                             v1.3.1                                                   go-module   (+2 duplicates)  
+github.com/moby/extensions                                                    v0.0.0-20261020100352-d2819d88bcbe                       go-module                    
 github.com/moby/extensions                                                    v0.0.0-20261026144205-2b6b3bd5fa82                       go-module                    
 github.com/moby/go-archive                                                    v0.2.0                                                   go-module                    
 github.com/moby/go-archive                                                    v0.3.3                                                   go-module   (+1 duplicate)   
 github.com/moby/ipvs                                                          v1.1.0                                                   go-module                    
 github.com/moby/locker                                                        v1.0.1                                                   go-module   (+4 duplicates)  
 github.com/moby/moby/api                                                      v1.56.0                                                  go-module                    
-github.com/moby/moby/api                                                      v1.56.1                                                  go-module                    
-github.com/moby/moby/api                                                      v1.57.0                                                  go-module                    
+github.com/moby/moby/api                                                      v1.57.0                                                  go-module   (+1 duplicate)   
 github.com/moby/moby/client                                                   v0.6.0                                                   go-module                    
-github.com/moby/moby/client                                                   v0.6.2                                                   go-module                    
-github.com/moby/moby/client                                                   v0.6.3                                                   go-module                    
+github.com/moby/moby/client                                                   v0.6.3                                                   go-module   (+1 duplicate)   
 github.com/moby/moby/v2                                                       v2.0.0-beta.30.0.20261113133159-06db1734267b             go-module   (+1 duplicate)   
 github.com/moby/patternmatcher                                                v0.6.1                                                   go-module   (+2 duplicates)  
 github.com/moby/policy-helpers                                                v0.0.0-20261111163703-6acab594b423                       go-module   (+1 duplicate)   
@@ -694,12 +694,11 @@ golang.org/x/net                                                              v0
 golang.org/x/oauth2                                                           v0.36.0                                                  go-module                    
 golang.org/x/oauth2                                                           v0.38.0                                                  go-module                    
 golang.org/x/sync                                                             v0.23.0                                                  go-module   (+2 duplicates)  
-golang.org/x/sync                                                             v0.24.0                                                  go-module   (+1 duplicate)   
-golang.org/x/sync                                                             v0.25.0                                                  go-module                    
+golang.org/x/sync                                                             v0.24.0                                                  go-module                    
+golang.org/x/sync                                                             v0.25.0                                                  go-module   (+1 duplicate)   
 golang.org/x/sys                                                              v0.46.0                                                  go-module                    
 golang.org/x/sys                                                              v0.48.0                                                  go-module   (+2 duplicates)  
-golang.org/x/sys                                                              v0.49.0                                                  go-module                    
-golang.org/x/sys                                                              v0.50.0                                                  go-module   (+2 duplicates)  
+golang.org/x/sys                                                              v0.50.0                                                  go-module   (+3 duplicates)  
 golang.org/x/term                                                             v0.45.0                                                  go-module                    
 golang.org/x/term                                                             v0.47.0                                                  go-module                    
 golang.org/x/term                                                             v0.48.0                                                  go-module                    
@@ -992,7 +991,7 @@ libgbm1                                                                       25
 libgcc-14-dev                                                                 14.2.0-19                                                deb                          
 libgcc-s1                                                                     14.2.0-19                                                deb                          
 libgcrypt20                                                                   1.11.0-7+deb13u1                                         deb                          
-libgd3                                                                        2.3.3-14~deb13u1                                         deb                          
+libgd3                                                                        2.3.3-14~deb13u3                                         deb                          
 libgdal36                                                                     3.10.3+dfsg-1                                            deb                          
 libgdbm-compat4t64                                                            1.24-2                                                   deb                          
 libgdbm6t64                                                                   1.24-2                                                   deb                          
@@ -1035,8 +1034,8 @@ libgnutls30t64                                                                3.
 libgomp1                                                                      14.2.0-19                                                deb                          
 libgpg-error-l10n                                                             1.51-4                                                   deb                          
 libgpg-error0                                                                 1.51-4                                                   deb                          
-libgpgme11t64                                                                 1.24.2-3                                                 deb                          
-libgpgmepp6t64                                                                1.24.2-3                                                 deb                          
+libgpgme11t64                                                                 1.24.2-3+deb13u1                                         deb                          
+libgpgmepp6t64                                                                1.24.2-3+deb13u1                                         deb                          
 libgphoto2-6t64                                                               2.5.31-4                                                 deb                          
 libgphoto2-dev                                                                2.5.31-4                                                 deb                          
 libgphoto2-port12t64                                                          2.5.31-4                                                 deb                          
@@ -1157,7 +1156,7 @@ libm                                                                          0.
 libmagic-mgc                                                                  1:5.46-5                                                 deb                          
 libmagic1t64                                                                  1:5.46-5                                                 deb                          
 libmanette-0.2-0                                                              0.2.12-1                                                 deb                          
-libmariadb3                                                                   1:11.8.6-0+deb13u1                                       deb                          
+libmariadb3                                                                   1:11.8.9+ds-0+deb13u1                                    deb                          
 libmbedcrypto16                                                               3.6.6-0.1~deb13u1                                        deb                          
 libmd0                                                                        1.1.0-2+b1                                               deb                          
 libmd4c0                                                                      0.5.2-2+b1                                               deb                          
@@ -1599,7 +1598,7 @@ login.defs                                                                    1:
 lru-slab                                                                      0.1.2                                                    rust-crate                   
 make                                                                          4.4.1-2                                                  deb                          
 man-db                                                                        2.13.1-1                                                 deb                          
-mariadb-common                                                                1:11.8.6-0+deb13u1                                       deb                          
+mariadb-common                                                                1:11.8.9+ds-0+deb13u1                                    deb                          
 matchers                                                                      0.2.0                                                    rust-crate                   
 mawk                                                                          1.3.4.20250131-1                                         deb                          
 maybe-owned                                                                   0.3.4                                                    rust-crate                   
@@ -1630,8 +1629,8 @@ ncurses-term                                                                  6.
 netbase                                                                       6.5                                                      deb                          
 netcat-traditional                                                            1.10-50                                                  deb                          
 nftables                                                                      1.1.3-1                                                  deb                          
-nginx                                                                         1.26.3-3+deb13u10                                        deb                          
-nginx-common                                                                  1.26.3-3+deb13u10                                        deb                          
+nginx                                                                         1.26.3-3+deb13u11                                        deb                          
+nginx-common                                                                  1.26.3-3+deb13u11                                        deb                          
 nix                                                                           0.30.1                                                   rust-crate                   
 nix                                                                           0.31.3                                                   rust-crate                   
 nom                                                                           7.1.3                                                    rust-crate                   
@@ -1727,8 +1726,8 @@ pulsectl                                                                      24
 pulsectl-asyncio                                                              1.3.2                                                    python                       
 pxfm                                                                          0.1.28                                                   rust-crate                   
 pycparser                                                                     3.12                                                     python                       
-pydantic                                                                      2.14.3                                                   python                       
-pydantic-core                                                                 2.50.4                                                   python                       
+pydantic                                                                      2.14.4                                                   python                       
+pydantic-core                                                                 2.50.5                                                   python                       
 pyee                                                                          16.1.0                                                   python                       
 pygobject                                                                     3.50.0                                                   python                       
 pylibsrtp                                                                     1.0.0                                                    python                       
@@ -1745,7 +1744,7 @@ python3-venv                                                                  3.
 python3.13                                                                    3.13.5-2+deb13u5                                         deb                          
 python3.13-minimal                                                            3.13.5-2+deb13u5                                         deb                          
 python3.13-venv                                                               3.13.5-2+deb13u5                                         deb                          
-pyyaml                                                                        6.0.3                                                    python                       
+pyyaml                                                                        6.0.4                                                    python                       
 quick-xml                                                                     0.42.0                                                   rust-crate                   
 quinn                                                                         0.11.9                                                   rust-crate                   
 quinn-proto                                                                   0.11.18                                                  rust-crate                   
